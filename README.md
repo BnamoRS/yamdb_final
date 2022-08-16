@@ -34,8 +34,12 @@
 	python manage.py collectstatic
 	```
 - создать суперпользователя комндой:
-	`python manage.py createsuperuser`
+	```
+	python manage.py createsuperuser
+	```
 - выйти из терминала:
-	`exit`
+	```
+	exit
+	```
 
-После выполнения данных команд по адресу *<ip-server>/admin/* будет доступна панель администратора.
+После выполнения данных команд по адресу *ip-server/admin/* будет доступна панель администратора.

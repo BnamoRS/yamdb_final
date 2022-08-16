@@ -1,10 +1,10 @@
-# Проект yamdb_final.
+# Проект yamdb_final
 
 ![example workflow](https://github.com/bnamors/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 **Workflow** для проекта **api_yamdb**
 
-При `git push` проекта на **Git Hub** настроен  CI/CD:
+При `git push` проекта на **Git Hub** настроен  **CI/CD**:
 - автоматическое тестирование кода тестами pytest и проверка линтером flake8;
 - создается образ yamdb_web и пушится на Docker Hub;
 - проект **api_yamdb** автоматически деплоится на сервер;
@@ -23,7 +23,7 @@
 - pytest-pythonpath==0.7.3
 - djangorestframework-simplejwt==5.1.0
 
-Дополнительно:
+ ## Дополнительно:
 
 На сервере необходимо выполнить миграции:
 - войти в терминал контейнера yamdb-web-1:
@@ -37,9 +37,9 @@
 	```
 	python manage.py createsuperuser
 	```
-- выйти из терминала:
+- выйти из терминала командой:
 	```
 	exit
 	```
 
-После выполнения данных команд по адресу *ip-server/admin/* будет доступна панель администратора.
+После выполнения данных команд по адресу `ip-server/admin/` будет доступна панель администратора.

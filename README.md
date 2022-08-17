@@ -57,14 +57,14 @@ IP адрес, по которому доступен [развернутый п
 
 ## Описание переменных окружения:
 
-`DB_ENGINE=django.db.backends.postgresql` -  Указание, что используется postgresql
-`DB_NAME=postgres` - имя базы данных
-`POSTGRES_USER=postgres` - пользователь базы данных
-`POSTGRES_PASSWORD=postgres` - пароль базы данных
-`DB_HOST=db` - host базы данных
-`DB_PORT=5432` - порт базы данных
-`SECRET_KEY=p&l*******************(vs` - секретный ключ Django
-`COMPOSE_PROJECT_NAME=yamdb` - имя проекта
+- `DB_ENGINE=django.db.backends.postgresql` -  Указание, что используется postgresql;
+- `DB_NAME=postgres` - имя базы данных;
+- `POSTGRES_USER=postgres` - пользователь базы данных;
+- `POSTGRES_PASSWORD=postgres` - пароль базы данных;
+- `DB_HOST=db` - host базы данных;
+- `DB_PORT=5432` - порт базы данных;
+- `SECRET_KEY=p&l*******************(vs` - секретный ключ Django;
+- `COMPOSE_PROJECT_NAME=yamdb` - имя проекта.
 
 ## Развернуть проект локально через docker:
 
@@ -81,4 +81,4 @@ IP адрес, по которому доступен [развернутый п
 
 ## Автор:
 
-	**Роман Буцких**
+***Роман Буцких***

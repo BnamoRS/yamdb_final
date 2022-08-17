@@ -12,7 +12,7 @@
 
 Описание проекта **api_yamdb** доступно по ссылке: [Проект api_yamdb](https://github.com/BnamoRS/api_yamdb "Посмотреть описание проекта api_yamdb")
 
-IP адрес, по которому доступен [развернутый проект](http://51.250.27.62/)
+IP адрес, по которому доступен [развернутый проект](http://51.250.27.62/admin/ "Вход в панель администратора проекта")
 
 ## Зависимости:
 
@@ -32,7 +32,7 @@ IP адрес, по которому доступен [развернутый п
 	`sudo systemctl stop nginx` 
 - установить docker:
 	`sudo apt install docker.io`
-- установить [docker-compose](https://docs.docker.com/compose/install/)
+- установить [docker-compose](https://docs.docker.com/compose/install/ "Ссылка на официальную документацию docker-compose")
 - скопировать файлы `docker-compose.yaml` и `nginx/default.conf` на сервер в `home/<username>/docker-compose.yaml` и `home/<username>/nginx/default.conf` соответственно.
 - добавить в Secrets GitHub Actions переменные окружения для работы базы данных
 
@@ -69,6 +69,7 @@ IP адрес, по которому доступен [развернутый п
 ## Развернуть проект локально через docker:
 
 - Установить `docker` и `docker-compose`;
+- клонировать репозиторий;
 - из директории с `Dockerfile`  `.../yamdb_final/api_yamdb` запустить команду:
 	```
 	sudo docker -t bnamors/yamdb_web build .

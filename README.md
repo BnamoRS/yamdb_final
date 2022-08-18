@@ -72,7 +72,7 @@ IP адрес, по которому доступен [развернутый п
 - клонировать репозиторий;
 - из директории с `Dockerfile`  `.../yamdb_final/api_yamdb` запустить команду:
 	```
-	sudo docker -t bnamors/yamdb_web build .
+	sudo docker build . -t bnamors/yamdb_web
 	```
 - в директории  `.../yamdb/infra/` создать файл `.env` с переменными окружения;
 - из директории `.../yamdb/infra/` выполнить команду:

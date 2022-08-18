@@ -43,7 +43,7 @@ jobs:
         with:
           context: ./api_yamdb/
           push: true
-          tags: bnamors/yamdb_web
+          tags: bnamors/yamdb_web_web
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
